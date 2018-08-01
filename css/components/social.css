@@ -1,0 +1,41 @@
+#social {
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+
+
+/*width: 20%;*/
+}
+
+/*
+a {
+
+ display: flex;
+ justify-content: space-between;
+}
+*/
+
+
+
+
+#social img {
+  width: 30%;
+}
+
+#social img:hover {
+  opacity: .4;
+
+
+
+}
+
+
+#cv img {
+  width: 30%;
+
+
+
+}

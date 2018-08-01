@@ -1,0 +1,188 @@
+
+@import url("components/menu.css");
+@import url("components/navbar.css");
+@import url("components/sidebar.css");
+@import url("components/social.css");
+
+html, body, section {
+  height: 100%;
+  background-color: yellow;
+
+
+}
+
+/*background-image {
+
+opacity: 0.5;
+filter: alpha(opacity=50);
+
+}*/
+
+
+.container {
+/*  width: 100%;*/
+/*  margin: 20px;*/
+
+
+}
+
+
+.page-header {
+  justify-content: center;
+/*  font-family: Anonymous Pro !important;*/
+  text-decoration:none;
+  display: flex;
+  padding:23px;
+
+}
+
+
+
+.row {
+  width: 100%;
+  display: flex;
+/*  padding-top: 60px;*/
+
+/*  justify-content: center;*/
+
+
+}
+
+
+
+.one-third {
+  padding-top: 50px;
+  margin-left: 20px;
+  width: 40%;
+  padding-bottom: 20px;
+
+  }
+.one-third img {
+  width: 100%;
+  position: relative;
+}
+
+.two-third {
+  width: 70%;
+  text-align: left;
+  position: relative;
+  flex-direction: column;
+  padding-top: 100px;
+
+}
+
+
+.two-third img {
+
+  width: 100%;
+}
+
+.left-side {
+  margin-left: 20px;
+/*  left: 0;*/
+  width: 100%;
+/*  text-align: center;*/
+
+}
+
+
+.left-side img {
+  width: 100%;
+  z-index: 100;
+  position: relative;
+}
+
+
+
+.right-side {
+  width: 100%;
+  text-align: left;
+  margin-right: 20px;
+  font-family: Work Sans;
+
+/*  font-weight: lighter;*/
+
+}
+
+.right-side h1 {
+  text-align: center;
+  font-weight: lighter;
+
+}
+
+
+.right-side h3 {
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+
+.right-side img {
+  width:100%;
+}
+
+#details img{
+  width: 114%;
+  align-items:flex-end;
+  padding-top: 120px;
+  position: relative;
+  right: 100px;
+
+}
+
+#org {
+  width: 120%;
+}
+
+#double {
+width: 70%;
+float: right;
+padding-top: 145px;
+
+}
+/*.right-side img {
+  width: 100%;
+}*/
+
+
+h1 {
+  font-family: Work Sans;
+  text-align: left;
+  margin-left: 20px;
+}
+
+
+h2 {
+  font-family: Work Sans;
+  text-align: right;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+/*  font-weight: lighter;*/
+}
+
+
+
+h2 a {
+  text-decoration: none;
+  color: red;
+  border: 1px red solid;
+  padding: 10px;
+}
+
+
+h2 a:hover{
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+
+.sidebar {
+
+  display: flex;
+  flex-direction: row;
+
+
+/*    height:100%;
+    width: 100vh;*/
+/*    position: fixed;*/
+    z-index:100;
+    right: 0;
+    transform: translateX(100%) rotate(90deg);
+    transform-origin:left top;
+    font-family: Work Sans;
+    font-size: 30px;
+    letter-spacing: 1vw;
+
+
+}
+
+
+
+.sidebar a {
+  z-index: 901;
+  color: red;
+  text-decoration: none !important;
+
+
+
+}
+
+.sidebar a:hover{
+  color: black;
+  font-style: italic;
+
+
+}
+
+li {
+
+  list-style-type: none;
+text-decoration:none;
+}
