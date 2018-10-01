@@ -22,6 +22,7 @@
 
 
 .sidebar a {
+  margin: 30px;
   z-index: 901;
   color: red;
   text-decoration: none !important;

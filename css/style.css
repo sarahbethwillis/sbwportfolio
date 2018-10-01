@@ -3,6 +3,7 @@
 @import url("components/navbar.css");
 @import url("components/sidebar.css");
 @import url("components/social.css");
+@import url("components/card.css");
 
 html, body, section {
   height: 100%;
@@ -39,8 +40,9 @@ filter: alpha(opacity=50);
 
 
 .row {
-  width: 100%;
+/*  width: 100%;*/
   display: flex;
+  padding: 50px;
 /*  padding-top: 60px;*/
 
 /*  justify-content: center;*/
@@ -178,10 +180,9 @@ h2 a:hover{
 
 
 
-
-
-
-
+h3 {
+  font-family: Work Sans;
+}
 
 
 
