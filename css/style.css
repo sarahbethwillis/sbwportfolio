@@ -42,7 +42,7 @@ filter: alpha(opacity=50);
 .row {
 
   display: flex;
-  padding: 10px;
+/*  padding: 10px;*/
   justify-content: center;
 /*  flex-wrap: wrap;*/
 /*  width: 100%;*/
@@ -186,5 +186,34 @@ h3 {
 }
 
 
+.small {
+  width: 70%;
+  text-align: left;
+  position: relative;
+  flex-direction: column;
+/*  padding-top: 100px;*/
+}
+
+
+.small img {
+
+  width: 100%;
+}
+
+
+.further {
+
+  text-align: left;
+  position: relative;
+  flex-direction: column;
+
+
+}
+
+
+.further img {
+
+  width: 100%;
+}
 
 
